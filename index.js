@@ -45,7 +45,7 @@ client.on('message', async message => {
   }
 })
 
-const port = process.env.POST || 3475
+const port = process.env.PORT || 3475
 
 app.listen(port, () => {
   console.log(`Listening on port ${port}`)
